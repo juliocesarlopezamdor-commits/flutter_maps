@@ -34,7 +34,7 @@ class MapScreenState extends State<MapScreen> {
         children: [
           TileLayer(
             urlTemplate: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-            subdomains: ['a', 'b', 'c'],
+            userAgentPackageName: 'com.julio.fluttermaps'
           ),
         ],
       ),
